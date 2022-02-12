@@ -24,7 +24,7 @@ h1 {
     overflow: hidden;
 }
 
-.container1 {
+.container-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 500px 500px;
@@ -34,11 +34,11 @@ h1 {
 
 .img1 {
     display: block;
-    width: 90%;
+    width: 95%;
     margin-top: 10.5rem;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
@@ -71,16 +71,6 @@ h1 {
     text-align: center;
 }
 
-
-/* .container1 img {
-    display: block;
-    width: 80%;
-    height: auto;
-    border-radius: 5px;
-    margin-right: auto;
-    margin-left: auto;
-
-} */
 
 .header {
     background: rosybrown;
@@ -147,7 +137,7 @@ h1 {
 
 .footer {
     background: #f2f2f2;
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
 
 }
@@ -189,4 +179,34 @@ h1 {
         background: #4a4a4a;
 
     }
+
 }
+
+@media only screen and (max-width: 600px) {
+
+.container1{
+    width: auto;
+    height: auto;
+
+}
+
+.img-container  {
+    padding: 60px;
+    width: auto;
+    
+}
+
+.img2{
+    width: 180%;
+    border-radius: 5px;
+}
+
+.text-container{
+    padding: 30px;
+    width: auto;
+    font-size: small;
+
+}
+}
+
+
